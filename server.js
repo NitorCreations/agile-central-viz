@@ -3,8 +3,6 @@ var logger = require('morgan');
 
 var app = express();
 app.use(express.static(__dirname + '/public'))
-
-
 app.use(logger('dev'));
 
 app.set('port', (process.env.PORT || 8080))
