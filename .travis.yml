@@ -2,6 +2,7 @@ sudo: false
 language: node_js
 node_js:
 - '0.11.18'
+script: echo hello
 deploy:
   provider: opsworks
   access-key-id: AKIAISRAK4FZZ44W6F4Q
